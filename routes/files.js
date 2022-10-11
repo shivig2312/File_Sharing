@@ -49,7 +49,7 @@ router.post('/send', async (req, res) => {
     sendMail({
       from: emailFrom,
       to: emailTo,
-      subject: 'SeriousX file sharing',
+      subject: 'Nebula file sharing',
       text: `${emailFrom} shared a file with you.`,
       html: require('../services/emailTemplate')({
                 emailFrom, 
